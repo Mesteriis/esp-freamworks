@@ -1,0 +1,17 @@
+[tool.poetry]
+version = "0.1.0"
+package-mode = false
+description = ""
+authors = ["Alexander Mescheryakov <avm@sh-inc.ru>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+esphome = "^2024.5.5"
+pillow = "10.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
